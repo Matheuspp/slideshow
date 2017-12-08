@@ -149,6 +149,7 @@ div.carrocel-container::after{
 	clear:right;
 	cursor:pointer;
 	display:none;
+	margin-left:10px;
 	
 }
 #proximo{
@@ -161,6 +162,7 @@ div.carrocel-container::after{
 	float:right;
 	cursor:pointer;
 	display:none;
+	margin-right:10px;
 
 	
 	
