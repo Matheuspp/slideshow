@@ -1,0 +1,203 @@
+*{
+	box-sizing:border-box;
+}
+.carrocel-container{
+	margin-bottom:20%;
+}
+
+div.carrocel-container .slides1{
+	width:100%;
+}
+/*
+[class *="col-01"]{
+	float:left;
+	padding:0.3em;
+}
+
+div.carrocel-container::after{
+	content:"";
+	clear:both;
+	display:table;
+	
+}
+*/
+
+@media screen and (max-width:600px){
+	.carrocel-container{
+		max-width:100%;
+		position:relative;
+		margin:auto;
+		text-align:center;
+	
+	
+	}
+}
+
+@media screen and (max-width:700px){
+	.numeros span{
+		font-size:0.8em;
+		
+	}
+	
+}
+@media screen and (max-width:1000px)and (min-width:600px){
+	.carrocel-container{
+		max-width:70%;
+		position:relative;
+		margin:auto;
+		text-align:center;
+	
+	
+	}
+}
+
+@media screen and (min-width:1000px){
+	.carrocel-container{
+		max-width:70%;
+		position:relative;
+		margin:auto;
+		text-align:center;
+		
+	}
+}
+
+.col-01{
+	width:100%;
+	box-sizing:border-box;
+	padding:20%;
+	padding-right:0%;
+	padding-left:0%;
+	-moz-background-size:100%;
+	-webkit-background-size:100%;
+	background-size:100%;
+	background-repeat:no-repeat;
+	background-attachment:scroll;
+	background-clip:padding-box;
+	border:none;
+	position:absolute;
+	
+	transition:transform 0.5s ease-out;
+	-webkit-transition:transform 0.5s ease-out;
+	-moz-transition:transform 0.5s ease-out;
+	-webkit-perspective:100%;
+	perspective:100%;
+	transform-origin:0% 0%;
+	-webkit-transform-origin:0% 0%;
+	
+	
+	
+	
+	
+	
+	
+	
+}
+#slides0{
+	transform:translateX(-100%);
+	
+	
+}
+#slides1{
+	
+	
+}
+#slides2{
+	position:relative;
+	transform:translateX(100%);
+	
+	
+}
+
+.bg{
+	
+	background:transparent;
+	width:100%;
+	box-sizing:border-box;
+	padding:none;
+	position:absolute;
+	
+	-webkit-box-shadow: 2px 3px 5px -3px rgba(0,0,0,0.1);
+    -moz-box-shadow: 2px 3px 5px -3px rgba(0,0,0,0.1);
+    box-shadow: 2px 3px 5px -3px rgba(0,0,0,0.1);
+    overflow:hidden;
+	
+
+}
+
+
+
+
+.bot1{
+	width:100%;
+	position:absolute;
+	top:44%;
+	z-index:2;
+	padding:none;
+	
+	
+}
+
+
+#voltar{
+	background-image:url("imagens/arrow-left.png");
+	background-color:transparent;
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding:3%;
+	border:none;
+	float:left;
+	clear:right;
+	cursor:pointer;
+	display:none;
+	
+}
+#proximo{
+	background-image:url("imagens/arrow-right.png");
+	background-color:transparent;
+	background-repeat:no-repeat;
+	background-size:cover;
+    padding:3%;
+	border:none;
+	float:right;
+	cursor:pointer;
+	display:none;
+
+	
+	
+	
+		
+}
+
+.numeros{
+	text-align:center;
+}
+
+
+
+
+.numeros span{
+
+	color:blue;
+	font-family:sans-serif;
+	font-weight:bold;
+	position:absolute;
+	z-index: 2;
+
+}
+
+@keyframes fade{
+	from{opacity:.1}
+	to  {opacity:1}
+}
+@-webkit-keyframes fade{
+	from{opacity:.1}
+	to  {opacity:1}
+}
+@-moz-keyframes fade{
+	from{opacity:.1}
+	to  {opacity:1}
+}
+
+
+	
+
