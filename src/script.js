@@ -2,7 +2,7 @@
 		                                                        
 	var formatoImg = '.jpg'; // formato
 	var quantSlides = 5;     // numero de imagens
-	var tempoM = 2000;     	 // tempo para a transicao de slides
+	var tempoM = 6000;     	 // tempo para a transicao de slides
 	var nomeImg = 'image';   // nome padrao das imagens
 	
     //----------------------customizaveis -----------------------
